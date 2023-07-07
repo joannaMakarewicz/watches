@@ -1,5 +1,5 @@
 import React from 'react';
-import "../AdditionalText/AdditionalText.css";
+import "../AdditionalText/AdditionalText.scss";
 
 const AdditionalText = () => {
   return (
