@@ -1,11 +1,12 @@
 import React from 'react';
+import "../Navbar/Navbar.scss";
 
-const Navigation = () => {
+const Navbar = () => {
   return (
-    <div>
+    <div className="navbar">
       Navigation
     </div>
   )
 }
 
-export default Navigation;
+export default Navbar;

@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  min-height: 100vh;
 }
 
 html {
@@ -15,4 +16,8 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+#root {
+  min-height: 100vh;
 }
