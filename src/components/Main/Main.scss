@@ -1,5 +1,10 @@
 .main {
-    background-color: #ffff;
+    background-color: #171614;
     border:0;
-    display:flex;
+    display:grid;
+    grid-template-columns: 1;
+    height: 100%;
+    @media screen and (min-width:768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

@@ -1,18 +1,20 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import bcg from "../../../assets/background.png";
+
+import "../CardComponent/CardComponent.scss";
 
 type CardComponentProps =  {
+  photo:string;
   title:string;
-  text:string
+  text:string;
 }
 
-const CardComponent = ({title, text}:CardComponentProps) => {
+const CardComponent = ({title, text, photo}:CardComponentProps) => {
 
   return (
-    <Card>
-      <Card.Img variant="top" src={bcg} />
+    <Card className="cardComponent">
+      <Card.Img variant="top" src={photo} className="cardComponent__img" />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
